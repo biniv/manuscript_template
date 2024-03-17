@@ -1,29 +1,30 @@
 ---
-title: La Palma Earthquakes
+title: Test of Quarto Manuscript
 author:
-  - name: Steve Purves
-    orcid: 0000-0002-0760-5497
+  - name: Author 1
+    #orcid: 0000-0002-0760-5497
     corresponding: true
-    email: steve@curvenote.com
+    email: author1@email.com
     roles:
       - Investigation
       - Project administration
       - Software
       - Visualization
     affiliations:
-      - Curvenote
-  - name: Rowan Cockett
-    orcid: 0000-0002-7859-8394
+      - Author 1 University
+  - name: Author 2
+    #orcid: 0000-0002-7859-8394
     corresponding: false
     roles: []
     affiliations:
-      - Curvenote
+      - Author 2 Institute
 keywords:
-  - La Palma
-  - Earthquakes
+  - Subject 1
+  - Subject 2
 abstract: |
   In September 2021, a significant jump in seismic activity on the island of La Palma (Canary Islands, Spain) signaled the start of a volcanic crisis that still continues at the time of writing. Earthquake data is continually collected and published by the Instituto Geográphico Nacional (IGN). ...
 plain-language-summary: |
+  For the general audience: 
   Earthquake data for the island of La Palma from the September 2021 eruption is found ...
 key-points:
   - A web scraping script was developed to pull data from the Instituto Geogràphico Nacional into a machine-readable form for analysis
@@ -63,7 +64,7 @@ avg_years_between_eruptions
 
 Based on data up to and including 1971, eruptions on La Palma happen every `r round(avg_years_between_eruptions, 1)` years on average.
 
-Studies of the magma systems feeding the volcano, such as @marrero2019, have proposed that there are two main magma reservoirs feeding the Cumbre Vieja volcano; one in the mantle (30-40km depth) which charges and in turn feeds a shallower crustal reservoir (10-20km depth).
+Studies of the magma systems feeding the volcano, such as @marrero2019...
 
 Eight eruptions have been recorded since the late 1400s (@fig-timeline).
 
